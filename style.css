@@ -1,0 +1,220 @@
+/* Estilos generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #f5f5f5;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background: linear-gradient(135deg, #6e48aa 0%, #9d50bb 100%);
+    color: white;
+    text-align: center;
+    padding: 2rem 0;
+    margin-bottom: 2rem;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+header p {
+    font-size: 1.2rem;
+    opacity: 0.9;
+}
+
+/* Contenedores */
+.test-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1.5rem;
+    padding: 0 2rem;
+    margin-bottom: 2rem;
+}
+
+.test-card {
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.test-card:hover {
+    transform: translateY(-5px);
+}
+
+.test-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.test-card-content {
+    padding: 1.5rem;
+}
+
+.test-card h3 {
+    margin-bottom: 0.5rem;
+    color: #6e48aa;
+}
+
+.test-card p {
+    color: #666;
+    margin-bottom: 1rem;
+    font-size: 0.9rem;
+}
+
+.test-card .btn {
+    display: inline-block;
+    background: #6e48aa;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background 0.3s;
+}
+
+.test-card .btn:hover {
+    background: #9d50bb;
+}
+
+/* Test activo */
+.test-container, .result-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    margin-bottom: 2rem;
+}
+
+.test-container h2, .result-container h2 {
+    color: #6e48aa;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.question {
+    margin-bottom: 1.5rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid #eee;
+}
+
+.question h3 {
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+.options {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.option {
+    display: flex;
+    align-items: center;
+    padding: 0.8rem;
+    background: #f9f9f9;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.option:hover {
+    background: #eee;
+}
+
+.option input {
+    margin-right: 0.8rem;
+}
+
+/* Resultados */
+.result-content {
+    background: #f9f9f9;
+    padding: 1.5rem;
+    border-radius: 5px;
+    margin-bottom: 1.5rem;
+}
+
+.result-content img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin: 1rem 0;
+}
+
+/* Botones */
+.btn {
+    display: inline-block;
+    background: #6e48aa;
+    color: white;
+    padding: 0.8rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background 0.3s;
+    text-align: center;
+}
+
+.btn:hover {
+    background: #9d50bb;
+}
+
+#submit-test, #back-to-tests {
+    display: block;
+    margin: 0 auto;
+}
+
+/* Anuncios */
+.ad-container {
+    margin: 2rem auto;
+    text-align: center;
+}
+
+.top-ad, .bottom-ad {
+    max-width: 728px;
+}
+
+/* Utilidades */
+.hidden {
+    display: none;
+}
+
+.loading {
+    text-align: center;
+    grid-column: 1 / -1;
+    padding: 2rem;
+    color: #666;
+}
+
+footer {
+    text-align: center;
+    padding: 1.5rem;
+    background: #333;
+    color: white;
+    margin-top: 2rem;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .test-list {
+        grid-template-columns: 1fr;
+        padding: 0 1rem;
+    }
+    
+    .test-container, .result-container {
+        padding: 1.5rem;
+    }
+}

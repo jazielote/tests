@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tests de Personalidad - Descubre tu verdadero yo</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Tests de Personalidad</h1>
+        <p>Descubre aspectos fascinantes sobre tu personalidad</p>
+    </header>
+
+
+    <main>
+        <section id="test-list" class="test-list">
+            <!-- Los tests se cargarán aquí dinámicamente -->
+            <div class="loading">Cargando tests...</div>
+        </section>
+
+        <section id="test-container" class="test-container hidden">
+            <h2 id="test-title"></h2>
+            <div id="question-container"></div>
+            <button id="submit-test" class="btn">Ver resultados</button>
+        </section>
+
+        <section id="result-container" class="result-container hidden">
+            <h2>Tu resultado</h2>
+            <div id="result-content"></div>
+            <button id="back-to-tests" class="btn">Volver a los tests</button>
+            
+        </section>
+    </main>
+
+
+    <footer>
+        <p>© 2023 Tests de Personalidad. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>

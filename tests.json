@@ -1,0 +1,447 @@
+{
+    "tests": [
+        {
+            "id": "ideologia-politica",
+            "title": "¿Qué ideología política tienes?",
+            "description": "Descubre tu posición en el espectro político con este test de 20 preguntas basado en teorías políticas modernas.",
+            "image": "assets/politica-header.jpg",
+            "questions": [
+                {
+                    "text": "¿Cuál debería ser el papel del gobierno en la economía?",
+                    "options": [
+                        {"text": "El gobierno debe intervenir activamente para reducir desigualdades", "value": 1},
+                        {"text": "El gobierno debe regular ciertos sectores pero con moderación", "value": 2},
+                        {"text": "El gobierno solo debe garantizar las reglas básicas del mercado", "value": 3},
+                        {"text": "La intervención gubernamental solo distorsiona la economía", "value": 4}
+                    ]
+                },
+                {
+                    "text": "Sobre los impuestos a los más ricos:",
+                    "options": [
+                        {"text": "Deben ser altos para redistribuir la riqueza", "value": 1},
+                        {"text": "Deben ser progresivos pero sin ahogar la iniciativa privada", "value": 2},
+                        {"text": "Deben ser moderados para incentivar la inversión", "value": 3},
+                        {"text": "Deben ser mínimos, cada uno sabe cómo usar mejor su dinero", "value": 4}
+                    ]
+                },
+                {
+                    "text": "¿Qué opinas sobre los servicios públicos como salud y educación?",
+                    "options": [
+                        {"text": "Deben ser universales y financiados totalmente por el estado", "value": 1},
+                        {"text": "Deben existir opciones públicas de calidad junto a privadas", "value": 2},
+                        {"text": "El estado debe garantizar acceso básico, lo demás es privado", "value": 3},
+                        {"text": "Son más eficientes cuando son gestionados por el sector privado", "value": 4}
+                    ]
+                },
+                {
+                    "text": "Sobre la inmigración:",
+                    "options": [
+                        {"text": "Debemos acoger a todos los que necesiten ayuda", "value": 1},
+                        {"text": "Debemos tener políticas humanitarias pero con ciertos límites", "value": 2},
+                        {"text": "Debe estar estrictamente regulada según necesidades del país", "value": 3},
+                        {"text": "Debe ser muy restrictiva para proteger nuestra identidad", "value": 4}
+                    ]
+                },
+                {
+                    "text": "¿Qué opinas sobre el cambio climático?",
+                    "options": [
+                        {"text": "Requiere acción inmediata y radical del gobierno", "value": 1},
+                        {"text": "Necesitamos regulaciones equilibradas que no dañen la economía", "value": 2},
+                        {"text": "El mercado desarrollará soluciones si se le da libertad", "value": 3},
+                        {"text": "Es un problema exagerado por intereses políticos", "value": 4}
+                    ]
+                },
+                {
+                    "text": "Sobre derechos sociales (matrimonio igualitario, aborto, etc.):",
+                    "options": [
+                        {"text": "El estado debe garantizar y promover todos los derechos", "value": 1},
+                        {"text": "El estado debe permitirlos pero sin imponer valores", "value": 2},
+                        {"text": "Algunos temas deben decidirse a nivel local o familiar", "value": 3},
+                        {"text": "La tradición y los valores morales deben prevalecer", "value": 4}
+                    ]
+                },
+                {
+                    "text": "¿Cómo ves el papel de la policía y las fuerzas de seguridad?",
+                    "options": [
+                        {"text": "Deben ser reformadas para servir a la comunidad", "value": 1},
+                        {"text": "Necesitan supervisión pero son esenciales", "value": 2},
+                        {"text": "Deben tener autoridad para mantener el orden", "value": 3},
+                        {"text": "Deben tener mano dura contra el crimen", "value": 4}
+                    ]
+                },
+                {
+                    "text": "Sobre la libertad de expresión:",
+                    "options": [
+                        {"text": "Debe limitarse contra discursos de odio", "value": 1},
+                        {"text": "Es fundamental pero con responsabilidad social", "value": 2},
+                        {"text": "Debe ser casi absoluta salvo casos extremos", "value": 3},
+                        {"text": "No debe usarse para atacar valores tradicionales", "value": 4}
+                    ]
+                },
+                {
+                    "text": "¿Qué opinas de los sindicatos?",
+                    "options": [
+                        {"text": "Son esenciales para proteger a los trabajadores", "value": 1},
+                        {"text": "Son útiles pero no deberían tener demasiado poder", "value": 2},
+                        {"text": "Son necesarios solo en sectores muy específicos", "value": 3},
+                        {"text": "Generalmente obstaculizan el progreso económico", "value": 4}
+                    ]
+                },
+                {
+                    "text": "Sobre la propiedad privada:",
+                    "options": [
+                        {"text": "Debe estar sujeta al interés social", "value": 1},
+                        {"text": "Es importante pero con ciertas limitaciones", "value": 2},
+                        {"text": "Es un derecho fundamental casi absoluto", "value": 3},
+                        {"text": "Es sagrada e inviolable", "value": 4}
+                    ]
+                },
+                {
+                    "text": "¿Qué piensas de la globalización?",
+                    "options": [
+                        {"text": "Debemos construir instituciones globales más fuertes", "value": 1},
+                        {"text": "Es positiva pero los estados deben mantener soberanía", "value": 2},
+                        {"text": "Los acuerdos deben beneficiar principalmente a nuestro país", "value": 3},
+                        {"text": "Amenaza nuestra identidad y economía nacional", "value": 4}
+                    ]
+                },
+                {
+                    "text": "Sobre la religión en la esfera pública:",
+                    "options": [
+                        {"text": "Debe mantenerse completamente separada del estado", "value": 1},
+                        {"text": "Puede tener un papel cultural pero no político", "value": 2},
+                        {"text": "Es parte importante de nuestra identidad nacional", "value": 3},
+                        {"text": "Debe ser la base de nuestras leyes y valores", "value": 4}
+                    ]
+                },
+                {
+                    "text": "¿Qué opinas del ejército?",
+                    "options": [
+                        {"text": "Debe reducirse y enfocarse en defensa", "value": 1},
+                        {"text": "Debe mantenerse para protección sin excesos", "value": 2},
+                        {"text": "Es esencial para la seguridad nacional", "value": 3},
+                        {"text": "Debe ser fuerte y mostrar nuestro poder", "value": 4}
+                    ]
+                },
+                {
+                    "text": "Sobre la igualdad de género:",
+                    "options": [
+                        {"text": "Necesitamos políticas activas para lograr igualdad real", "value": 1},
+                        {"text": "Debemos garantizar igualdad de oportunidades", "value": 2},
+                        {"text": "La igualdad legal es suficiente", "value": 3},
+                        {"text": "Las diferencias biológicas justifican roles distintos", "value": 4}
+                    ]
+                },
+                {
+                    "text": "¿Cómo debe manejar el gobierno la cultura y las artes?",
+                    "options": [
+                        {"text": "Debe financiarlas activamente como servicio público", "value": 1},
+                        {"text": "Puede apoyarlas pero sin interferir en su contenido", "value": 2},
+                        {"text": "Solo debe apoyar lo que refleje valores nacionales", "value": 3},
+                        {"text": "No es responsabilidad del gobierno", "value": 4}
+                    ]
+                },
+                {
+                    "text": "Sobre el control de armas:",
+                    "options": [
+                        {"text": "Debe ser muy estricto para proteger a la sociedad", "value": 1},
+                        {"text": "Debe haber regulaciones equilibradas", "value": 2},
+                        {"text": "Es un derecho fundamental con ciertas restricciones", "value": 3},
+                        {"text": "Las restricciones solo afectan a ciudadanos honestos", "value": 4}
+                    ]
+                },
+                {
+                    "text": "¿Qué opinas de la acción afirmativa?",
+                    "options": [
+                        {"text": "Es necesaria para corregir injusticias históricas", "value": 1},
+                        {"text": "Puede ser útil en algunos casos específicos", "value": 2},
+                        {"text": "Crea más desigualdad de la que resuelve", "value": 3},
+                        {"text": "Es discriminatoria e injusta", "value": 4}
+                    ]
+                },
+                {
+                    "text": "Sobre la privacidad vs seguridad:",
+                    "options": [
+                        {"text": "La privacidad es un derecho fundamental", "value": 1},
+                        {"text": "Debe haber equilibrio entre ambos", "value": 2},
+                        {"text": "La seguridad nacional justifica ciertas intrusiones", "value": 3},
+                        {"text": "En tiempos de crisis, la seguridad es lo primero", "value": 4}
+                    ]
+                },
+                {
+                    "text": "¿Qué piensas de los medios de comunicación?",
+                    "options": [
+                        {"text": "Deben ser más diversos y con participación pública", "value": 1},
+                        {"text": "Necesitan regulación para evitar abusos", "value": 2},
+                        {"text": "El mercado regula mejor que el gobierno", "value": 3},
+                        {"text": "Muchos promueven agendas anti-patrióticas", "value": 4}
+                    ]
+                },
+                {
+                    "text": "Tu frase política favorita sería:",
+                    "options": [
+                        {"text": "De cada cual según sus capacidades, a cada cual según sus necesidades", "value": 1},
+                        {"text": "Libertad, igualdad, fraternidad", "value": 2},
+                        {"text": "El gobierno que menos gobierna es el que mejor gobierna", "value": 3},
+                        {"text": "Orden, jerarquía y tradición", "value": 4}
+                    ]
+                }
+            ],
+            "results": [
+                {
+                    "minScore": 20,
+                    "maxScore": 35,
+                    "title": "Izquierda progresista",
+                    "description": "Crees en un estado activo que reduzca desigualdades y promueva justicia social. Valoras la diversidad, los derechos humanos y la protección ambiental. Eres crítico del capitalismo desregulado y apoyas políticas redistributivas.",
+                    "image": "assets/izquierda-progresista.jpg"
+                },
+                {
+                    "minScore": 36,
+                    "maxScore": 50,
+                    "title": "Centro reformista",
+                    "description": "Buscas equilibrio entre mercado y estado, entre tradición y progreso. Apuestas por reformas graduales y pragmáticas. Crees en la importancia de las instituciones y el diálogo social para resolver conflictos.",
+                    "image": "assets/centro-reformista.jpg"
+                },
+                {
+                    "minScore": 51,
+                    "maxScore": 65,
+                    "title": "Derecha liberal",
+                    "description": "Valoras la libertad individual, la iniciativa privada y un estado limitado. Crees que el mercado es el mejor asignador de recursos, pero aceptas cierta regulación. Eres escéptico de cambios sociales radicales.",
+                    "image": "assets/derecha-liberal.jpg"
+                },
+                {
+                    "minScore": 66,
+                    "maxScore": 80,
+                    "title": "Derecha conservadora",
+                    "description": "Priorizas seguridad, orden y tradición. Crees en la importancia de la familia, la religión y la identidad nacional. Apoyas un estado fuerte en seguridad pero limitado en economía. Desconfías de cambios sociales acelerados.",
+                    "image": "assets/derecha-conservadora.jpg"
+                },
+                {
+                    "minScore": 81,
+                    "maxScore": 100,
+                    "title": "Extremista",
+                    "description": "Tus posiciones son radicales en múltiples aspectos, ya sea hacia la izquierda o derecha. Tiendes a ver el mundo en términos de 'nosotros vs ellos' y apoyas cambios drásticos en el sistema. Considera escuchar más perspectivas diversas.",
+                    "image": "assets/extremista.jpg"
+                }
+            ]
+        },
+        {
+            "id": "liderazgo-test",
+            "title": "¿Qué tipo de líder eres?",
+            "description": "Descubre tu estilo de liderazgo natural con este test de 20 preguntas científicamente diseñadas.",
+            "image": "assets/liderazgo-header.jfif",
+            "questions": [
+                {
+                    "text": "Cuando surge un problema en el equipo, tu primera reacción es...",
+                    "options": [
+                        {"text": "Analizar datos y hechos antes de actuar", "value": 1},
+                        {"text": "Convocar una reunión para escuchar opiniones", "value": 2},
+                        {"text": "Dar instrucciones claras para solucionarlo", "value": 3},
+                        {"text": "Motivar al equipo para superar el obstáculo", "value": 4}
+                    ]
+                },
+                {
+                    "text": "¿Cómo manejas los errores de tu equipo?",
+                    "options": [
+                        {"text": "Señalando el error y cómo corregirlo", "value": 3},
+                        {"text": "Preguntando qué aprendieron del error", "value": 2},
+                        {"text": "Analizando las causas profundas del error", "value": 1},
+                        {"text": "Enfocándonos en cómo mejorar para el futuro", "value": 4}
+                    ]
+                },
+                {
+                    "text": "Tu forma de tomar decisiones es...",
+                    "options": [
+                        {"text": "Basada en datos y análisis", "value": 1},
+                        {"text": "Consensuada con el equipo", "value": 2},
+                        {"text": "Rápida y firme", "value": 3},
+                        {"text": "Guiada por la visión a largo plazo", "value": 4}
+                    ]
+                },
+                {
+                    "text": "En una crisis, tu prioridad es...",
+                    "options": [
+                        {"text": "Entender exactamente qué está pasando", "value": 1},
+                        {"text": "Mantener la calma y unir al equipo", "value": 2},
+                        {"text": "Tomar el control de la situación", "value": 3},
+                        {"text": "Encontrar la oportunidad en la crisis", "value": 4}
+                    ]
+                },
+                {
+                    "text": "¿Cómo defines los objetivos para tu equipo?",
+                    "options": [
+                        {"text": "Con métricas claras y alcanzables", "value": 1},
+                        {"text": "En conjunto con los miembros del equipo", "value": 2},
+                        {"text": "Desafiantes pero realistas", "value": 3},
+                        {"text": "Inspiradores y transformadores", "value": 4}
+                    ]
+                },
+                {
+                    "text": "Tu comunicación con el equipo es...",
+                    "options": [
+                        {"text": "Precisa y basada en hechos", "value": 1},
+                        {"text": "Abierta y bidireccional", "value": 2},
+                        {"text": "Directa y sin rodeos", "value": 3},
+                        {"text": "Motivadora y visionaria", "value": 4}
+                    ]
+                },
+                {
+                    "text": "Cuando delegas tareas...",
+                    "options": [
+                        {"text": "Explico exactamente cómo deben hacerse", "value": 3},
+                        {"text": "Pregunto quién se siente capacitado para hacerlas", "value": 2},
+                        {"text": "Proporciono todos los recursos necesarios", "value": 1},
+                        {"text": "Enmarco la tarea dentro del propósito mayor", "value": 4}
+                    ]
+                },
+                {
+                    "text": "¿Qué frase te identifica más?",
+                    "options": [
+                        {"text": "Los números no mienten", "value": 1},
+                        {"text": "Juntos llegamos más lejos", "value": 2},
+                        {"text": "El que no cumple, se va", "value": 3},
+                        {"text": "Soñemos en grande", "value": 4}
+                    ]
+                },
+                {
+                    "text": "En reuniones de equipo...",
+                    "options": [
+                        {"text": "Presento datos y análisis detallados", "value": 1},
+                        {"text": "Fomento la participación de todos", "value": 2},
+                        {"text": "Voy directo al grano", "value": 3},
+                        {"text": "Comparto historias inspiradoras", "value": 4}
+                    ]
+                },
+                {
+                    "text": "Ante un proyecto nuevo...",
+                    "options": [
+                        {"text": "Pido un plan detallado con hitos", "value": 1},
+                        {"text": "Reunimos al equipo para brainstorming", "value": 2},
+                        {"text": "Asigno roles y responsabilidades", "value": 3},
+                        {"text": "Comparto mi visión del resultado final", "value": 4}
+                    ]
+                },
+                {
+                    "text": "¿Cómo manejas los conflictos?",
+                    "options": [
+                        {"text": "Analizando los hechos objetivos", "value": 1},
+                        {"text": "Mediando entre las partes", "value": 2},
+                        {"text": "Tomando una decisión firme", "value": 3},
+                        {"text": "Enfocándonos en el propósito común", "value": 4}
+                    ]
+                },
+                {
+                    "text": "Tu mayor fortaleza como líder es...",
+                    "options": [
+                        {"text": "Mi capacidad analítica", "value": 1},
+                        {"text": "Mi habilidad para unir al equipo", "value": 2},
+                        {"text": "Mi determinación", "value": 3},
+                        {"text": "Mi capacidad para inspirar", "value": 4}
+                    ]
+                },
+                {
+                    "text": "¿Qué tipo de feedback das?",
+                    "options": [
+                        {"text": "Específico y basado en comportamientos", "value": 1},
+                        {"text": "Siempre empiezo con aspectos positivos", "value": 2},
+                        {"text": "Directo y al punto", "value": 3},
+                        {"text": "Relacionado con el crecimiento personal", "value": 4}
+                    ]
+                },
+                {
+                    "text": "Cuando alguien no cumple expectativas...",
+                    "options": [
+                        {"text": "Muestro los datos de bajo rendimiento", "value": 1},
+                        {"text": "Pregunto qué obstáculos está enfrentando", "value": 2},
+                        {"text": "Dejo claro que debe mejorar o habrán consecuencias", "value": 3},
+                        {"text": "Revisamos juntos cómo alinear sus metas", "value": 4}
+                    ]
+                },
+                {
+                    "text": "Tu oficina/espacio de trabajo refleja...",
+                    "options": [
+                        {"text": "Gráficos y datos en las paredes", "value": 1},
+                        {"text": "Fotos del equipo trabajando", "value": 2},
+                        {"text": "Listas de tareas y objetivos", "value": 3},
+                        {"text": "Frases motivacionales", "value": 4}
+                    ]
+                },
+                {
+                    "text": "En eventos sociales del trabajo...",
+                    "options": [
+                        {"text": "Analizo dinámicas del equipo", "value": 1},
+                        {"text": "Conversó con todos por igual", "value": 2},
+                        {"text": "Aprovecho para hablar de trabajo informalmente", "value": 3},
+                        {"text": "Comparto historias y anécdotas", "value": 4}
+                    ]
+                },
+                {
+                    "text": "¿Cómo manejas el cambio?",
+                    "options": [
+                        {"text": "Con un plan detallado de implementación", "value": 1},
+                        {"text": "Involucrando al equipo en el proceso", "value": 2},
+                        {"text": "Implementando cambios rápidamente", "value": 3},
+                        {"text": "Comunicando la visión detrás del cambio", "value": 4}
+                    ]
+                },
+                {
+                    "text": "Tu equipo te describe como...",
+                    "options": [
+                        {"text": "Lógico y analítico", "value": 1},
+                        {"text": "Empático y cercano", "value": 2},
+                        {"text": "Firme y decidido", "value": 3},
+                        {"text": "Inspirador y visionario", "value": 4}
+                    ]
+                },
+                {
+                    "text": "¿Qué libro de liderazgo preferirías?",
+                    "options": [
+                        {"text": "Thinking, Fast and Slow - Daniel Kahneman", "value": 1},
+                        {"text": "The Five Dysfunctions of a Team - Patrick Lencioni", "value": 2},
+                        {"text": "Extreme Ownership - Jocko Willink", "value": 3},
+                        {"text": "Start With Why - Simon Sinek", "value": 4}
+                    ]
+                },
+                {
+                    "text": "Tu meta como líder es...",
+                    "options": [
+                        {"text": "Optimizar procesos y resultados", "value": 1},
+                        {"text": "Crear un ambiente de trabajo positivo", "value": 2},
+                        {"text": "Lograr objetivos ambiciosos", "value": 3},
+                        {"text": "Transformar la industria/organización", "value": 4}
+                    ]
+                }
+            ],
+            "results": [
+                {
+                    "minScore": 20,
+                    "maxScore": 35,
+                    "title": "Líder Analítico",
+                    "description": "Eres metódico y basas tus decisiones en datos. Tu fortaleza es la precisión y el pensamiento lógico, aunque podrías trabajar en conectar emocionalmente con tu equipo.",
+                    "image": "assets/lider-analitico.jpg"
+                },
+                {
+                    "minScore": 36,
+                    "maxScore": 50,
+                    "title": "Líder Democrático",
+                    "description": "Valoras la participación y el consenso. Tu equipo te aprecia por tu empatía y capacidad de escucha, pero a veces podrías ser más decisivo cuando se necesita rapidez.",
+                    "image": "assets/lider-democratico.jfif"
+                },
+                {
+                    "minScore": 51,
+                    "maxScore": 65,
+                    "title": "Líder Autocrático",
+                    "description": "Eres firme, decisivo y orientado a resultados. Logras que las cosas se hagan eficientemente, pero podrías beneficiarte de delegar más y escuchar otras perspectivas.",
+                    "image": "assets/lider-autocratico.jfif"
+                },
+                {
+                    "minScore": 66,
+                    "maxScore": 80,
+                    "title": "Líder Transformacional",
+                    "description": "Inspiras con tu visión y motivas a tu equipo a superarse. Eres carismático y logras lo extraordinario, pero no descuides los detalles operativos.",
+                    "image": "assets/lider-transformacional.jfif"
+                }
+            ]
+        }
+    ]
+}
